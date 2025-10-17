@@ -173,7 +173,7 @@ Samples: 500+ products
 (Optional: Add image here later)
 
 
-![App Screenshot](static/screenshot.png)
+![App Screenshot](diagram.png)
 ❤️ Created By
 Zuhaib Hussain Butt
 Data Science Lecturer | ML Developer | Freelancer
