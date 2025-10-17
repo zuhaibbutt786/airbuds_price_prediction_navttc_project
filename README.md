@@ -12,6 +12,9 @@ It aims to assist users, sellers, and enthusiasts in understanding how product f
 
 ---
 
+![App Screenshot](earbuds.png)
+
+---
 ## 🧠 Features
 
 - 💬 **Interactive UI:** User-friendly interface to input earbud features.  
@@ -170,8 +173,6 @@ Samples: 500+ products
 🗄️ Build REST API for integration with other apps
 
 ### 🖼️ Project Screenshot
-(Optional: Add image here later)
-
 
 ![App Screenshot](diagram.png)
 ❤️ Created By
