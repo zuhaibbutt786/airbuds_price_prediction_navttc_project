@@ -69,27 +69,24 @@ It aims to assist users, sellers, and enthusiasts in understanding how product f
 ## 🧰 Installation and Setup
 
 ### 1️⃣ Clone this repository
-```bash
+
 git clone https://github.com/<your-username>/airbuds-price-predictor.git
 cd airbuds-price-predictor
-2️⃣ Create and activate a virtual environment
-bash
-Copy code
+### 2️⃣ Create and activate a virtual environment
+
 python -m venv venv
 venv\Scripts\activate   # For Windows
 # or
 source venv/bin/activate  # For Mac/Linux
-3️⃣ Install dependencies
-bash
-Copy code
+### 3️⃣ Install dependencies
+
 pip install -r requirements.txt
-4️⃣ Run the Flask app
-bash
-Copy code
+### 4️⃣ Run the Flask app
+
 python app.py
 Then open your browser and go to 👉 http://127.0.0.1:5000
 
-📊 Model Training Workflow
+### 📊 Model Training Workflow
 🔹 1. Data Collection
 The dataset was scraped from PriceOye.pk using BeautifulSoup and Requests.
 Each product entry includes attributes like:
@@ -141,8 +138,6 @@ Random Forest achieved the best balance between accuracy and generalization.
 🔹 6. Model Saving
 The best model was serialized using:
 
-python
-Copy code
 import pickle
 pickle.dump(model, open('model.pkl', 'wb'))
 🔹 7. Flask Integration
@@ -154,7 +149,7 @@ Converts input into model-ready format
 
 Displays the predicted price instantly on the page
 
-📦 Dataset
+### 📦 Dataset
 Source: PriceOye.pk - Wireless Earbuds
 
 Scraping Tools: BeautifulSoup, Requests
@@ -163,7 +158,7 @@ Format: CSV (features + price column)
 
 Samples: 500+ products
 
-📈 Future Enhancements
+### 📈 Future Enhancements
 ✅ Add model comparison dashboard (Linear, Ridge, Random Forest, XGBoost)
 
 🌍 Deploy on Streamlit or Hugging Face Spaces
@@ -174,17 +169,16 @@ Samples: 500+ products
 
 🗄️ Build REST API for integration with other apps
 
-🖼️ Project Screenshot
+### 🖼️ Project Screenshot
 (Optional: Add image here later)
 
-html
-Copy code
+
 ![App Screenshot](static/screenshot.png)
 ❤️ Created By
 Zuhaib Hussain Butt
 Data Science Lecturer | ML Developer | Freelancer
 
-📧 Email Me
+📧 Email Me : zuhaibbutt3@gmail.com
 🌐 LinkedIn
 💼 Fiverr: fiverr.com/zuhaibhussainbutt
 
